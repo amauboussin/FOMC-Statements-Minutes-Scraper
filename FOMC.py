@@ -18,6 +18,7 @@ class FOMC (object):
 
     def __init__(self, base_url='https://www.federalreserve.gov', 
                  calendar_url='https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm',
+                 historical_url='https://www.federalreserve.gov/monetarypolicy/fomchistorical2011.htm',
                  historical_date = 2011,
                  verbose = True,
                  max_threads = 10):
